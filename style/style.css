@@ -1,0 +1,150 @@
+::selection {
+  background-color: #def;
+}
+
+body {
+
+}
+
+html {
+  background-color: rgba(245, 245, 245, 1);
+  color: #555;
+  font-family: "Arial", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 2.00em;
+}
+
+h2 {
+  font-size: 1.50em;;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1.00em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.75em;
+}
+
+hr {
+  background-color: #888;
+  border: 0;
+  color: #888;
+  display: inline-block;
+  height: 1px;
+  margin: 3px 0px 6px 0px;
+  width: 100%;
+}
+
+input {
+  background-color: inherit;
+  border: 1px solid #888;
+  color: inherit;
+  font-family: inherit;
+  margin: 0px 5px 0px 5px;
+}
+
+table, th, td {
+  border: 1px solid #888;
+  margin: 0px auto 0px auto;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  font-weight: bold;
+}
+
+.headline {
+  font-weight: bold;
+}
+
+#bodyBox {
+  font-family: monospace;
+  font-size: 0.83em;
+}
+
+#goButton {
+  background-color: #ddd;
+  border-radius: 5px;
+  font-size: 1.17em;
+  margin-top: 5px;
+  vertical-align: middle;
+}
+
+#headlineBox {
+  margin: 0 auto 0 auto;
+  width: 80%;
+}
+
+#inputInterest {
+  width: 4em;
+}
+
+#inputMoney {
+  width: 8em;
+}
+
+#inputYears {
+  width: 4em;
+}
+
+#mainBox {
+  margin: 0 auto 0 auto;
+  padding: 5px;
+  text-align: center;
+  width: 80%;
+}
+
+#wrapper {
+  display: block;
+  margin: auto auto auto auto;
+  text-align: center;
+  min-width: 720px;
+  width: 80%
+}
+
+/* page width break points */
+/*
+@media (max-width: 720px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  #wrapper {
+    width: 100%;
+  }
+}
+*/
